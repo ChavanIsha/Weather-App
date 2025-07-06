@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pro Weather App with WeatherAPI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="weather-container">
+        <h2>🌤️ Weather App</h2>
+
+        <div class="theme-toggle">
+            <button id="theme-toggle">🌙 Toggle Theme</button>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Enter City Name">
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+
+        <div class="weather-result" id="weather-result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
